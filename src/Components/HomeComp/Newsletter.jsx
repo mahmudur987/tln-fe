@@ -3,7 +3,7 @@ import girlImg from "../../Assets/NewsLetterImg/girl.png";
 import Image from "next/image";
 const Newsletter = () => {
   return (
-    <section className="w-full flex py-[120px] justify-center gap-x-3 min-h-[591px]  bg-secondary-color">
+    <section className="w-full flex py-[120px] justify-center gap-x-3 min-h-[591px]  bg-secondary-color mt-[102px]">
       <section className="flex flex-col justify-center items-center rounded-2xl min-h-[375px] w-[455px] bg-white">
         <Image
           alt="hindustaniTimes"

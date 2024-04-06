@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <HomeBanner />
-      {/* <Newsletter /> */}
+      <Newsletter />
       <WhyShould />
       <CoursesWeOffer />
     </div>
