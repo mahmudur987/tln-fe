@@ -64,7 +64,7 @@ const Nav = () => {
   const [showStudyAbroad, setShowStudyAbroad] = useState(false);
   const [showWorkWithUs, setShowWorkWithUs] = useState(false);
   return (
-    <header>
+    <header className="">
       <nav>
         {/* Batches Starting Now  */}
         <section>
