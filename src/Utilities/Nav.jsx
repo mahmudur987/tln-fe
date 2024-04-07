@@ -86,12 +86,12 @@ const Nav = () => {
                 src={logo}
                 alt="logo"
               ></Image>
-              <div className="px-2.5 py-[29px] flex-col justify-start items-start cursor-pointer  gap-2.5 inline-flex">
-                <div className="justify-start items-start gap-12 inline-flex">
+              <div className="px-2.5 py-[29px] flex-col justify-start items-start cursor-pointer  gap-2.5 flex">
+                <div className="justify-start items-start gap-5 xl:gap-12 inline-flex">
                   <div
                     onMouseLeave={() => setShowLanguageOptions(false)}
                     onMouseOver={() => setShowLanguageOptions(true)}
-                    className="text-stone-900  font-normal font-['Inter'] relative  leading-7"
+                    className="text-stone-900  font-normal xl:text-xl font-['Inter'] relative  leading-7"
                   >
                     Languages
                     {showLanguageOptions && (
@@ -104,7 +104,11 @@ const Nav = () => {
                       >
                         <div className="" />
                         {languageOptions.map((language) => (
-                          <Link href={language.path} key={language.name}>
+                          <Link
+                            className=""
+                            href={language.path}
+                            key={language.name}
+                          >
                             {language.name}
                           </Link>
                         ))}
@@ -115,6 +119,7 @@ const Nav = () => {
                   {
                     NavOptions.map((Nav) => (
                       <Link
+                        className="text-nowrap xl:text-xl"
                         onMouseLeave={() => {
                           if (Nav.name === "Work with us") {
                             setShowWorkWithUs(false);
@@ -167,11 +172,9 @@ const Nav = () => {
               </div>
             </div>
           </div>
-          <div className="  flex-grow flex justify-end me-5">
-            <div className="w-40 h-[53px] px-8 py-3.5 bg-teal-600 rounded-lg justify-center items-center gap-2.5 inline-flex">
-              <div className="w-[215px] h-[30px] text-center text-neutral-50 text-2xl font-medium font-['Inter']">
-                Login
-              </div>
+          <div className="  flex-grow  flex justify-end me-5">
+            <div className="xl:w-40 w-[120px] h-[53px] px-8 py-3.5 bg-primary-color rounded-lg justify-center text-white font-bold xl:text-xl items-center gap-2.5 inline-flex">
+              Login
             </div>
           </div>
         </section>
