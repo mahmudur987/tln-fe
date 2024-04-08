@@ -1,6 +1,6 @@
 const FluencyCarrerCulture = () => {
   return (
-    <div className="">
+    <div className="bg-[#F6F3F3]">
       <section className="mb-[112px]">
         <div className="w-full flex justify-center items-center h-[380px] bg-primary-color flex-col">
           <h1 className="text-center text-neutral-50 text-5xl font-bold mb-[32px]">

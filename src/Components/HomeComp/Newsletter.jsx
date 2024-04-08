@@ -13,8 +13,10 @@ const Newsletter = () => {
                 src={hindustaniTimes}
                 className="h-[40px] w-[300px]"
               ></Image>
-              <div className="flex flex-col justify-center px-12 mx-8 mt-8 max-md:px-5 max-md:mx-2.5">
-                <div className="text-3xl">We have made</div>
+              <div className="flex flex-col items-center justify-center  px-12 mx-8 mt-8 max-md:px-5 max-md:mx-2.5">
+                <div className="text-3xl flex items-center justify-center text-nowrap">
+                  We have made
+                </div>
                 <div className="self-center mt-1 text-5xl font-bold max-md:text-4xl">
                   NEWS
                 </div>
