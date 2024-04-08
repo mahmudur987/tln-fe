@@ -8,9 +8,9 @@ const States = () => {
     inactiveFillColor: "#BBF7D0",
   };
   return (
-    <div>
-      <div className="w-[1680px] h-[199px] px-[70px] py-[52px] rounded-2xl border border-stone-300 flex-col justify-between items-center mx-auto mt-[25.5px] flex">
-        <div className="w-[1500px] justify-center items-center gap-[142px] inline-flex">
+    <div className="flex justify-center items-center">
+      <div className="max-w-[1680px] min-h-[199px] px-[70px] py-[52px]  rounded-2xl border border-stone-300 flex-col mx-10 justify-center items-center  mt-[25.5px] flex">
+        <div className="justify-center items-center gap-[90px] flex-wrap flex">
           <div className="flex-col justify-center items-center gap-2 inline-flex">
             <div className="text-center text-stone-900 text-5xl font-bold font-['Inter']">
               7+

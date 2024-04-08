@@ -4,10 +4,10 @@ import Image from "next/image";
 const HomeBanner = () => {
   return (
     <div className="mt-[84px]">
-      <div className="w-[1681px] h-[542px] justify-between items-center flex mx-auto">
-        <div className="w-[525px] h-[542px] flex-col justify-center items-center gap-4 inline-flex">
+      <div className="max-w-[1681px] h-[542px] justify-between items-center flex mx-auto">
+        <div className="xl:w-[525px] h-[542px] flex-col justify-center  items-center gap-4 inline-flex">
           <div className="self-stretch h-[261px] flex-col justify-center items-start gap-4 flex">
-            <div className="self-stretch text-stone-900 text-5xl font-bold font-['Inter']">
+            <div className="self-stretch text-stone-900 xl:text-5xl font-bold font-['Inter']">
               Your Gateway to <br />
               Language Excellence
             </div>
