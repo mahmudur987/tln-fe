@@ -1,5 +1,5 @@
-import hindustaniTimes from "@/Assets/NewsLetterImg/image.png";
-import girlImg from "../../Assets/NewsLetterImg/girl.png";
+import hindustaniTimes from "@/Assets/Homepage/NewsLetterImg/image.png";
+import girlImg from "../../Assets/Homepage/NewsLetterImg/girl.png";
 import Image from "next/image";
 const Newsletter = () => {
   return (

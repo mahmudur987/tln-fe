@@ -1,5 +1,5 @@
 import "@/css/Custom.css";
-import girlRashi from "@/Assets/UpComingCourseCard/girlRashi.png";
+import girlRashi from "@/Assets/Homepage/UpComingCourseCard/girlRashi.png";
 import Image from "next/image";
 const UpcomingBatches = () => {
   return (

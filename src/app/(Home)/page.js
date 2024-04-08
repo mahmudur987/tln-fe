@@ -1,3 +1,4 @@
+import CefrLevels from "@/Components/HomeComp/CefrLevels";
 import CoursesWeOffer from "@/Components/HomeComp/CoursesWeOffer";
 import HomeBanner from "@/Components/HomeComp/HomeBanner";
 import Newsletter from "@/Components/HomeComp/Newsletter";
@@ -17,6 +18,7 @@ export default function Home() {
       <WhyShould />
       <CoursesWeOffer />
       <UpcomingBatches />
+      <CefrLevels />
     </section>
   );
 }

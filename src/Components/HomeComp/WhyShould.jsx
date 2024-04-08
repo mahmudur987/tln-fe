@@ -1,12 +1,12 @@
 import Image from "next/image";
-import experts from "../../Assets/whyShouldYouLearn/Expertrainers.png";
-import interactive from "../../Assets/whyShouldYouLearn/Interactivesessions.png";
-import courses from "../../Assets/whyShouldYouLearn/courses.png";
-import demo from "../../Assets/whyShouldYouLearn/demo.png";
-import material from "../../Assets/whyShouldYouLearn/material.png";
-import sessions from "../../Assets/whyShouldYouLearn/sessions.png";
-import flexible from "../../Assets/whyShouldYouLearn/flexible timings.png";
-import batch from "../../Assets/whyShouldYouLearn/batch.png";
+import experts from "../../Assets/Homepage/whyShouldYouLearn/Expertrainers.png";
+import interactive from "../../Assets/Homepage/whyShouldYouLearn/Interactivesessions.png";
+import courses from "../../Assets/Homepage/whyShouldYouLearn/courses.png";
+import demo from "../../Assets/Homepage/whyShouldYouLearn/demo.png";
+import material from "../../Assets/Homepage/whyShouldYouLearn/material.png";
+import sessions from "../../Assets/Homepage/whyShouldYouLearn/sessions.png";
+import flexible from "../../Assets/Homepage/whyShouldYouLearn/flexible timings.png";
+import batch from "../../Assets/Homepage/whyShouldYouLearn/batch.png";
 const WhyShould = () => {
   return (
     <div className="mt-[108px] min-h-[658px] xl:w-[1264px] mx-auto">
