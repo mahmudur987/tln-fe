@@ -6,10 +6,10 @@ import Newsletter from "@/Components/HomeComp/Newsletter";
 import ProficiencyExams from "@/Components/HomeComp/ProficiencyExams";
 import WhyShould from "@/Components/HomeComp/WhyShould";
 import States from "@/Shared/States";
+import StudentsTestomony from "@/Shared/StudentsTestomony";
+import SubscribeToOur from "@/Shared/SubscribeToOur";
 import UpcomingBatches from "@/Shared/UpcomingBatches";
 import Experiment from "@/Utilities/Experiment";
-
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -23,6 +23,10 @@ export default function Home() {
       <CefrLevels />
       <ProficiencyExams />
       <FluencyCarrerCulture />
+      <StudentsTestomony />
+      <SubscribeToOur />
+
+      {/* here used shared components are : studentsTestomony, subscribeToOur, upcomingBatches */}
     </section>
   );
 }

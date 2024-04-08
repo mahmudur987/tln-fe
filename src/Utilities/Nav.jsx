@@ -91,7 +91,7 @@ const Nav = () => {
                   <div
                     onMouseLeave={() => setShowLanguageOptions(false)}
                     onMouseOver={() => setShowLanguageOptions(true)}
-                    className="text-stone-900  font-normal xl:text-xl font-['Inter'] relative  leading-7"
+                    className="text-stone-900  font-normal xl:text-xl  relative  leading-7"
                   >
                     Languages
                     {showLanguageOptions && (

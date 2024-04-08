@@ -18,7 +18,7 @@ const ProficiencyExams = () => {
             We prepare you for International Proficiency Exams
           </h1>
         </div>
-        <div className="flex  flex-wrap justify-center items-center w-full gap-x-[30px]">
+        <div className="flex  flex-wrap justify-center items-center w-full gap-[30px]">
           <Image className="w-[160px]" alt="logo" src={logo1} />
           <Image className="w-[160px]" alt="logo" src={logo2} />
           <Image className="w-[160px]" alt="logo" src={logo3} />
