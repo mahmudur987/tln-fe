@@ -23,7 +23,6 @@ export default function Home() {
       <CefrLevels />
       <ProficiencyExams />
       <FluencyCarrerCulture />
-
       <StudentsTestomony />
       <SubscribeToOur />
 
