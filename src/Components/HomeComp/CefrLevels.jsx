@@ -5,7 +5,7 @@ const CefrLevels = () => {
   return (
     <div className="bg-[#F5F5F5] pt-[150px] min-h-[1350px]">
       <div className="max-w-[1681px]  mx-auto flex justify-center items-center ">
-        <section className="min-h-[463px] mx-10 gap-[42px] w-full grid grid-cols-2">
+        <section className="min-h-[463px] mx-10 gap-[42px] w-full grid lg:grid-cols-2 ">
           <div className=" rounded-xl">
             <Image
               alt="girl"

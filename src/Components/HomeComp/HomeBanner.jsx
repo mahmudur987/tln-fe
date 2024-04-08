@@ -1,4 +1,4 @@
-import homePageBannerGirl from "@/Assets/HomePageBanner/homePageBannerGirl.png";
+import homePageBannerGirl from "@/Assets/Homepage/HomePageBanner/homePageBannerGirl.png";
 import BookAFreeDemoButton from "@/Shared/BookAFreeDemoButton";
 import States from "@/Shared/States";
 import Image from "next/image";
